@@ -1,0 +1,192 @@
+
+html{
+    font-size:16px;
+}
+
+body {
+    font-family: "Helvetica";
+    font-size: 1.375rem;
+    color: seashell;
+    background-color: hsla(0, 0%, 0%);
+    text-align: center;
+    margin: 0;
+    
+}
+/*  Header */
+
+main {
+    opacity:0.9;
+    width:100%;
+   
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position:fixed;
+    top:0px;
+    z-index:1;
+    background-color:hsla(0, 0%, 0%, 1);
+    
+}
+header img {
+    height: 3.125rem; /*50px*/
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+    
+nav a {
+    color: seashell;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+/* Mission Section  */
+
+.container {
+    display: flex;
+    margin:0 auto;
+  
+   
+}
+
+.mission {
+    height: 43.75rem; /*700px*/
+    max-width: 75rem; /*1200px*/
+    background-image:url("../Images/img-mission-background.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+.mission-info {
+   background-color:hsla(0, 0%, 0%);
+   width:100%;
+}
+
+    /* Tea Section */
+
+.products {
+    max-width: 62.5rem;  /*1000px*/
+    flex-direction: column;
+    
+}
+
+.products h2 {
+    margin-top: 64px;
+    margin-bottom: 5px;
+}
+
+.images {
+    max-width: 100%; /*1000px*/
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.products img {
+    width: 300px;
+    height: 200px;
+    margin-bottom:10px;
+    display: block;
+    }
+
+.products figure {
+    margin: 10px;
+}
+
+    /* Location Section */
+
+.locations {
+    max-width: 75rem;;
+    height: 31.25rem; /*500px*/
+    margin-top: 40px;
+    flex-direction: column;
+    background-image: url("../Images/img-locations-background.webp");
+    background-position: 50% 25%;
+    background-size: cover;
+}
+
+.locations h2 {
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+.stores {
+    display: flex;
+    justify-content: center;
+}
+
+
+.stores div {
+    width: 18.75rem;
+    margin:0.9375rem;
+    background-color: hsla(0, 0%, 0%, 1);
+   
+}
+    
+.contact {
+    height: 12.5rem ; /*200px*/
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    opacity:0.8;
+}
+
+@media only screen and (max-width:480px) {
+    html {
+        font-size: 12px;
+    }
+    
+    main {
+        width: 90%;
+        margin:auto;
+        }
+    nav {
+        margin-right: 1rem;
+    }
+
+    nav li {
+        font-size: 1rem;
+        padding: 0px;
+    }
+    .products h2 {
+        margin-top: 34px;
+    }
+    .locations h2 {
+        margin-top: 20px;
+    }
+    .stores div {
+        width: 24rem;
+        margin: 0.1rem;
+    }
+    footer, .stores div {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:1200px)and (orientation:landscape) {
+main {
+    width: 90%;
+    margin:auto;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .locations h2 {
+        margin-top: 20px;
+    }
+}
