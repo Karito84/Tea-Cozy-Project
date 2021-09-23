@@ -114,7 +114,7 @@ nav li {
     height: 31.25rem; /*500px*/
     margin-top: 40px;
     flex-direction: column;
-    background-image: url("../Images/img-locations-background.webp");
+    background-image: url("https://raw.githubusercontent.com/Karito84/Tea-Cozy-Project/master/Resources/Images/img-locations-background.webp");
     background-position: 50% 25%;
     background-size: cover;
 }
