@@ -63,7 +63,7 @@ nav li {
 .mission {
     height: 43.75rem; /*700px*/
     max-width: 75rem; /*1200px*/
-    background-image:url("../../Images/img-mission-background.webp");
+    background-image:url("./../Images/img-mission-background.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
